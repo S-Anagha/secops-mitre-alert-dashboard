@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS / Editor
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Env files
+.env

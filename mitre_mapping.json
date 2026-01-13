@@ -1,0 +1,52 @@
+{
+  "sql injection": { "tactic": "Initial Access", "technique": "T1190" },
+  "xss": { "tactic": "Initial Access", "technique": "T1190" },
+  "cross-site scripting": { "tactic": "Initial Access", "technique": "T1190" },
+  "rce": { "tactic": "Initial Access", "technique": "T1190" },
+  "remote code execution": { "tactic": "Initial Access", "technique": "T1190" },
+  "path traversal": { "tactic": "Initial Access", "technique": "T1190" },
+  "ssrf": { "tactic": "Initial Access", "technique": "T1190" },
+
+  "brute force": { "tactic": "Credential Access", "technique": "T1110" },
+  "multiple failed login": { "tactic": "Credential Access", "technique": "T1110" },
+  "password spraying": { "tactic": "Credential Access", "technique": "T1110" },
+  "credential stuffing": { "tactic": "Credential Access", "technique": "T1110" },
+
+  "valid account": { "tactic": "Defense Evasion", "technique": "T1078" },
+  "impossible travel": { "tactic": "Credential Access", "technique": "T1078" },
+
+  "port scan": { "tactic": "Discovery", "technique": "T1046" },
+  "service discovery": { "tactic": "Discovery", "technique": "T1046" },
+  "dns query spike": { "tactic": "Discovery", "technique": "T1016" },
+
+  "suspicious powershell": { "tactic": "Execution", "technique": "T1059" },
+  "command execution": { "tactic": "Execution", "technique": "T1059" },
+  "script execution": { "tactic": "Execution", "technique": "T1059" },
+  "malware execution": { "tactic": "Execution", "technique": "T1059" },
+
+  "persistence registry": { "tactic": "Persistence", "technique": "T1547" },
+  "new scheduled task": { "tactic": "Persistence", "technique": "T1053" },
+
+  "privilege escalation": { "tactic": "Privilege Escalation", "technique": "T1068" },
+  "uac bypass": { "tactic": "Privilege Escalation", "technique": "T1548" },
+
+  "credential dumping": { "tactic": "Credential Access", "technique": "T1003" },
+  "lsass access": { "tactic": "Credential Access", "technique": "T1003" },
+
+  "lateral movement": { "tactic": "Lateral Movement", "technique": "T1021" },
+  "remote services": { "tactic": "Lateral Movement", "technique": "T1021" },
+
+  "c2 beacon": { "tactic": "Command and Control", "technique": "T1071" },
+  "command and control": { "tactic": "Command and Control", "technique": "T1071" },
+  "suspicious outbound": { "tactic": "Command and Control", "technique": "T1071" },
+
+  "data exfiltration": { "tactic": "Exfiltration", "technique": "T1041" },
+  "exfiltration over c2": { "tactic": "Exfiltration", "technique": "T1041" },
+
+  "ransomware": { "tactic": "Impact", "technique": "T1486" },
+  "encrypted for impact": { "tactic": "Impact", "technique": "T1486" },
+
+  "waf block": { "tactic": "Initial Access", "technique": "T1190" },
+  "iam policy change": { "tactic": "Defense Evasion", "technique": "T1562" },
+  "security group change": { "tactic": "Defense Evasion", "technique": "T1562" }
+}

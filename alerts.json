@@ -1,0 +1,37 @@
+[
+  { "timestamp": "2025-02-01T00:12:00Z", "source": "WAF", "type": "SQL Injection Attempt", "severity": "high", "src_ip": "185.23.11.2", "host": "api.example.com" },
+  { "time": "2025-02-01T00:18:00Z", "vendor": "CloudTrail", "alert_type": "Multiple Failed Login", "user": "admin", "ip": "34.22.11.9" },
+  { "timestamp": "2025-02-01T01:02:00Z", "source": "IDS", "signature": "Port Scan Detected", "src_ip": "91.198.44.17" },
+  { "event_time": "2025-02-01T01:20:00Z", "product": "Endpoint", "type": "Suspicious PowerShell Command Execution", "severity": "medium", "host": "laptop-23" },
+  { "timestamp": "2025-02-01T01:35:00Z", "source": "IAM", "type": "Brute Force Login Attempt", "user": "root", "src_ip": "203.0.113.45" },
+
+  { "timestamp": "2025-02-01T02:05:00Z", "source": "WAF", "type": "XSS Attempt", "severity": "medium", "src_ip": "62.12.9.20", "host": "www.example.com" },
+  { "time": "2025-02-01T02:18:00Z", "vendor": "CloudTrail", "alert_type": "Impossible Travel Detected (Valid Account)", "user": "ops-admin", "ip": "198.51.100.18" },
+  { "timestamp": "2025-02-01T02:44:00Z", "source": "IDS", "signature": "Service Discovery / Port Scan", "src_ip": "45.77.88.9" },
+  { "event_time": "2025-02-01T03:12:00Z", "product": "Endpoint", "type": "LSASS Access Attempt (Credential Dumping)", "severity": "high", "host": "win-hr-04" },
+  { "timestamp": "2025-02-01T03:40:00Z", "source": "Endpoint", "type": "New Scheduled Task Created", "severity": "medium", "host": "win-fin-11" },
+
+  { "timestamp": "2025-02-01T04:05:00Z", "source": "WAF", "type": "SSRF Attempt", "severity": "high", "src_ip": "77.21.10.3", "host": "api.example.com" },
+  { "time": "2025-02-01T04:33:00Z", "vendor": "CloudTrail", "alert_type": "IAM Policy Change", "user": "devops", "ip": "203.0.113.10" },
+  { "timestamp": "2025-02-01T05:14:00Z", "source": "Network", "type": "C2 Beacon (Suspicious Outbound)", "severity": "high", "src_ip": "10.0.4.23", "host": "srv-web-02" },
+  { "event_time": "2025-02-01T05:55:00Z", "product": "Endpoint", "type": "Privilege Escalation Attempt", "severity": "high", "host": "win-ops-07" },
+  { "timestamp": "2025-02-01T06:20:00Z", "source": "IDS", "signature": "DNS Query Spike", "src_ip": "10.0.3.19" },
+
+  { "timestamp": "2025-02-01T07:02:00Z", "source": "WAF", "type": "Path Traversal Attempt", "severity": "high", "src_ip": "104.31.22.7", "host": "cdn.example.com" },
+  { "time": "2025-02-01T07:18:00Z", "vendor": "CloudTrail", "alert_type": "Password Spraying Detected", "user": "unknown", "ip": "45.11.200.1" },
+  { "timestamp": "2025-02-01T08:11:00Z", "source": "Endpoint", "type": "Persistence Registry Modification", "severity": "medium", "host": "win-eng-09" },
+  { "timestamp": "2025-02-01T09:09:00Z", "source": "Network", "type": "Data Exfiltration Suspected", "severity": "high", "src_ip": "10.0.9.5", "host": "srv-db-01" },
+  { "event_time": "2025-02-01T09:40:00Z", "product": "Endpoint", "type": "Malware Execution", "severity": "critical", "host": "laptop-88" },
+
+  { "timestamp": "2025-02-02T00:05:00Z", "source": "WAF", "type": "Remote Code Execution Attempt (RCE)", "severity": "high", "src_ip": "89.44.22.19", "host": "api.example.com" },
+  { "time": "2025-02-02T00:26:00Z", "vendor": "CloudTrail", "alert_type": "Credential Stuffing Attempt", "user": "unknown", "ip": "66.12.19.200" },
+  { "timestamp": "2025-02-02T01:12:00Z", "source": "IDS", "signature": "Port Scan Detected", "src_ip": "92.14.18.77" },
+  { "event_time": "2025-02-02T02:02:00Z", "product": "Endpoint", "type": "Command Execution Detected", "severity": "medium", "host": "win-rd-03" },
+  { "timestamp": "2025-02-02T02:30:00Z", "source": "IAM", "type": "Security Group Change", "severity": "medium", "user": "cloud-admin", "src_ip": "198.51.100.99" },
+
+  { "timestamp": "2025-02-02T03:05:00Z", "source": "Network", "type": "Command and Control Detected", "severity": "high", "src_ip": "10.0.7.21", "host": "srv-app-01" },
+  { "timestamp": "2025-02-02T04:14:00Z", "source": "Endpoint", "type": "Lateral Movement Suspected (Remote Services)", "severity": "high", "host": "win-it-02" },
+  { "event_time": "2025-02-02T04:45:00Z", "product": "Endpoint", "type": "Credential Dumping Detected", "severity": "high", "host": "win-it-02" },
+  { "timestamp": "2025-02-02T05:10:00Z", "source": "Endpoint", "type": "Ransomware Activity Detected (Encrypted for Impact)", "severity": "critical", "host": "win-fin-11" },
+  { "timestamp": "2025-02-02T06:25:00Z", "source": "WAF", "type": "WAF Block: SQL Injection Attempt", "severity": "medium", "src_ip": "203.0.113.77", "host": "www.example.com" }
+]
